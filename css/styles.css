@@ -1,0 +1,87 @@
+body {
+    background-image: linear-gradient(rgba(247, 207, 224, 0.4), rgba(247, 207, 224, 0.4)),  url("../images/cupcake.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.nav {
+    font-size: 200%;
+    color: #451265;
+    text-align: center;  
+}
+
+.nav-padding {
+    padding: 10px 75px 0px 75px;
+}
+
+a:hover{
+    color: #5f9eb5;
+}
+
+.h1-title,
+.h2-title {
+    color: #ba2b68;
+    font-size: 250%
+}
+
+.title,
+.title2 {
+    text-align: center
+}
+
+.par-quote {
+    background-image: linear-gradient(rgba(255, 226, 238, 0.8), rgba(224, 248, 255, 0.8));
+    display: inline;
+    padding: 20px;
+    width: 70%;
+    border-radius: 20px;
+}
+
+.section-quote {
+    font-size:30px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px 0px 50px 0px;
+    
+}
+#section-quote {
+    margin-top: 200px;
+    font-size: 50px;
+    text-align: center;
+}
+
+/*---------------------------- */
+/* Floats */
+/*-----------------------------*/
+
+.cookies,
+.pie,
+brownies {
+    float: left;  
+    padding: 10px 250px 250px 10px;
+}
+
+.cherry,
+.cake,
+.lava,
+.mac,
+.pop,
+.ras{
+    float:left;
+    padding: 10px 150px 150px 10px;
+}
+
+.mac{
+    clear:left
+}
+
+.mac { 
+    float:left}
+.pics{
+    background-image: linear-gradient(rgba(255, 226, 238, 0.8), rgba(224, 248, 255, 0.8));
+    border-radius: 30px; 
+    margin: center;
+    padding: 20px;
+    height:1500px
+}
