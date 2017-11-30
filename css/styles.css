@@ -7,7 +7,6 @@ body {
 
 .nav {
     font-size: 200%;
-    color: #451265;
     text-align: center;  
 }
 
@@ -15,8 +14,32 @@ body {
     padding: 10px 75px 0px 75px;
 }
 
+
+a:link, a:visited {
+    color: #451265;
+}
+
 a:hover{
     color: #5f9eb5;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    margin:0 auto;
+    padding: 0;
+    display: table;
+}
+
+li {
+    display: inline-block;
+    height:250px;
+    overflow:hidden;
+    margin-left: auto;
+    margin-right: auto;
+    float:left;
+    padding: 5px;
+    
 }
 
 .h1-title,
@@ -55,34 +78,32 @@ a:hover{
 /* Floats */
 /*-----------------------------*/
 
-.cookies,
-.pie,
-brownies {
+.recipes {
     float: left;  
     padding: 10px 250px 250px 10px;
 }
 
-.cherry,
-.cake,
-.lava,
-.mac,
-.pop,
-.ras{
+.insp-desserts{
     float:left;
     padding: 10px 150px 150px 10px;
 }
 
-.mac{
-    clear:left
-}
 
-.mac { 
-    float:left}
 .pics{
     background-image: linear-gradient(rgba(255, 226, 238, 0.8), rgba(224, 248, 255, 0.8));
     border-radius: 30px; 
     margin: center;
     padding: 20px;
-    height:1500px
 }
 
+.clearfix{
+    zoom:1;
+}
+
+.clearfix:after {
+    content: ".";
+    clear:both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
