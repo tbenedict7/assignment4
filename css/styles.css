@@ -74,6 +74,40 @@ li {
     text-align: center;
 }
 
+
+
+/*---------------------------- */
+/* contact form */
+/*-----------------------------*/
+
+table {
+    border-spacing: 5px;
+    text-align: right;
+}
+
+th {
+    color:#5b0067;
+    padding-right: 5px;
+    font-size: 25px
+}
+
+td {
+    padding: 5px;
+    width: 100%;
+}
+
+input {
+    width:100%;
+}
+
+input#submit,
+input#reset {
+    width: 100px;
+    margin-left: 10px;
+}
+    
+
+
 /*---------------------------- */
 /* Floats */
 /*-----------------------------*/
