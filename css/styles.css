@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(rgba(247, 207, 224, 0.4), rgba(247, 207, 224, 0.4)),  url("../images/cupcake.jpg");
+    background-image: linear-gradient(rgba(247, 207, 224, 0.4), rgba(247, 207, 224, 0.4)), url("../images/cupcake.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -7,7 +7,7 @@ body {
 
 .nav {
     font-size: 200%;
-    text-align: center;  
+    text-align: center;
 }
 
 .nav-padding {
@@ -15,31 +15,31 @@ body {
 }
 
 
-a:link, a:visited {
+a:link,
+a:visited {
     color: #451265;
 }
 
-a:hover{
+a:hover {
     color: #5f9eb5;
 }
 
-ul{
+ul {
     list-style: none;
     text-align: center;
-    margin:0 auto;
+    margin: 0 auto;
     padding: 0;
     display: table;
 }
 
-li {
+.unli {
     display: inline-block;
-    height:250px;
-    overflow:hidden;
+    height: 250px;
+    overflow: hidden;
     margin-left: auto;
     margin-right: auto;
-    float:left;
+    float: left;
     padding: 5px;
-    
 }
 
 .h1-title,
@@ -62,23 +62,27 @@ li {
 }
 
 .section-quote {
-    font-size:30px;
+    font-size: 30px;
     margin-top: 50px;
     text-align: center;
     padding: 20px 0px 50px 0px;
-    
+
 }
+
 #section-quote {
     margin-top: 200px;
     font-size: 50px;
     text-align: center;
 }
-
-
-
 /*---------------------------- */
+
 /* contact form */
+
 /*-----------------------------*/
+
+.contact-form {
+    position: fixed;
+} 
 
 table {
     border-spacing: 5px;
@@ -86,8 +90,8 @@ table {
 }
 
 th {
-    color:#5b0067;
-    padding-right: 5px;
+    color: #fff;
+    padding-right: 10px;
     font-size: 25px
 }
 
@@ -97,7 +101,7 @@ td {
 }
 
 input {
-    width:100%;
+    width: 100%;
 }
 
 input#submit,
@@ -105,38 +109,55 @@ input#reset {
     width: 100px;
     margin-left: 10px;
 }
-    
+
 
 
 /*---------------------------- */
+
 /* Floats */
+
 /*-----------------------------*/
 
 .recipes {
-    float: left;  
+    float: left;
     padding: 10px 250px 250px 10px;
 }
 
-.insp-desserts{
-    float:left;
-    padding: 10px 150px 150px 10px;
-}
-
-
-.pics{
+.respics {
     background-image: linear-gradient(rgba(255, 226, 238, 0.8), rgba(224, 248, 255, 0.8));
-    border-radius: 30px; 
-    margin: center;
-    padding: 20px;
+    border-radius: 30px;
+    width:600px;
+    margin: auto;
+    text-align: center;
 }
 
-.clearfix{
-    zoom:1;
+.clearpics:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+.pics {
+    background-image: linear-gradient(rgba(255, 226, 238, 0.8), rgba(224, 248, 255, 0.8));
+    border-radius: 30px;
+    width: 575px;
+}
+
+.pics img {
+    padding: 10px;
+    width: 160px;
+}
+
+.clearfix {
+    zoom: 1;
 }
 
 .clearfix:after {
     content: ".";
-    clear:both;
+    clear: both;
     display: block;
     height: 0;
     visibility: hidden;
